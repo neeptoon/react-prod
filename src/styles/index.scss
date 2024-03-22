@@ -1,0 +1,26 @@
+@import '../styles/themes/dark.scss';
+@import '../styles/themes/light.scss';
+@import '../styles/reset.scss';
+@import '../styles/variables.scss';
+
+
+html, body {
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+.app {
+    height: 100%;
+    padding: 30px;
+
+    font-family: var(--font-family-main);
+    font-size: var(--font-size-m);
+    line-height: var(--line-height);
+}
+
+a {
+    color: inherit;
+}
