@@ -1,10 +1,10 @@
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
-import '../styles/index.scss'
-const AboutPage = lazy(() => import('../pages/AboutPage/AboutPage'));
-const MainPage = lazy(() => import('../pages/MainPage/MainPage'));
+import './styles/index.scss'
+const AboutPage = lazy(() => import('../pages/AboutPage/ui/AboutPage'));
+const MainPage = lazy(() => import('../pages/MainPage/ui/MainPage'));
 import { Suspense, lazy } from 'react';
-import { useTheme } from '../theme/useTheme'
-import { classNames } from '../helpers/classNames';
+import { classNames } from '../shared/lib/classNames';
+import { useTheme } from './providers/ThemeProvider';
 
 
 const SuspenseWrapper = (page: React.ReactNode) => {
