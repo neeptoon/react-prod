@@ -14,13 +14,11 @@ html, body {
 
 .app {
     height: 100%;
-    padding: 30px;
 
     font-family: var(--font-family-main);
     font-size: var(--font-size-m);
     line-height: var(--line-height);
-}
+    color: var(--primary-color);
 
-a {
-    color: inherit;
+    background-color: var(--bg-color);
 }

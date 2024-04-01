@@ -1,13 +1,17 @@
 :root {
     --font-family-main: Consolas, "Times New Roman", serif;
-
     --line-height: 1.2;
 
     --font-size-m: 16px;
-
     --font-size-l: 24px;
 
     // colors
     --primary-dark: rgba(18, 16, 16, 0.871);
     --primary-white: rgba(255, 255, 255, 0.95);
+    --primary-blue: rgba(8, 157, 237, 0.95);
+    --primary-yellow: rgba(241, 238, 90, 0.95);
+
+
+    // sizes
+    --navbar-min-height: 70px;
 }

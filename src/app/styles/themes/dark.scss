@@ -1,6 +1,10 @@
 @import '../variables.scss';
 
 .app.dark {
-    background-color: var(--primary-dark);
-    color: var(--primary-white);
+    --bg-color: var(--primary-dark);
+    --primary-color: var(--primary-white);
+    --secondary-color: var(--primary-yellow);
+
+    --inverted-bg-color: var(--primary-white);
+    --inverted-color: var(--primary-dark);
 }

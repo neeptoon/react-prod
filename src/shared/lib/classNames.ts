@@ -9,7 +9,7 @@ type Mode = Record<string, boolean>
  */
 
 
-export function classNames(cls: string, mode?: Mode, classes: string[] = []): string {
+export function classNames(cls: string, mode: Mode = {}, classes: string[] = []): string {
     return [
         cls,
         ...classes,
